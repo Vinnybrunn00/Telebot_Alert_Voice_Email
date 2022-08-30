@@ -6,7 +6,7 @@ import time, telebot
 bot = telebot.TeleBot(TeleToken())
 print('Connected!!!')
 
-user = 'YOUT_EMAIL'
+user = 'YOUR_EMAIL'
 passwd = PassXablau()
 
 @bot.message_handler(commands=['start'])
